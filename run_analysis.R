@@ -29,7 +29,9 @@ run_analysis <- function()
   featuresdata[,2] = gsub('-std', 'Std', featuresdata[,2])
   featuresdata[,2] = gsub('-mean', 'Mean', featuresdata[,2])
   featuresdata[,2] = gsub('[-()]', '', featuresdata[,2])
-  
+  featuresdata[,2] = gsub("BodyBody", "Body", featuresdata[,2])
+  featuresdata[,2] = gsub("^t", "time", featuresdata[,2])
+  featuresdata[,2] = gsub("^f", "frequency", featuresdata[,2])
   
   # Merge data sets here
   MergedData = rbind(traindata, testdata)
