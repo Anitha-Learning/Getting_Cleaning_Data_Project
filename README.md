@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Purpose : To prepare tidy data , that can be used for later analysis , using data collected from the accelerometers from the Samsumg Galaxy S smartphone.
 
 Files include :
@@ -18,3 +19,7 @@ Steps taken for getting and cleaning data :
 
 Results :
 Executing the R script results in the tidydata.txt file.
+=======
+# Getting_Cleaning_Data_Project
+Getting and Cleaning Data Course Project
+>>>>>>> 35b7f6030e65460c441d336ccc5f31ad0456a8e3
